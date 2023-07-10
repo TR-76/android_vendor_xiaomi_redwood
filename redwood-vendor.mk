@@ -1327,7 +1327,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedap.so \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
-    vendor/xiaomi/redwood/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so
+    vendor/xiaomi/redwood/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
+    vendor/xiaomi/redwood/proprietary/system/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_abr.so \
+    vendor/xiaomi/redwood/proprietary/system/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_enc.so \
+    vendor/xiaomi/redwood/proprietary/system/lib/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/liblhdc.so \
+    vendor/xiaomi/redwood/proprietary/system/lib/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/liblhdcBT_enc.so \
+    vendor/xiaomi/redwood/proprietary/system/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_abr.so \
+    vendor/xiaomi/redwood/proprietary/system/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_enc.so \
+    vendor/xiaomi/redwood/proprietary/system/lib64/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/liblhdc.so \
+    vendor/xiaomi/redwood/proprietary/system/lib64/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/liblhdcBT_enc.so 
 
 PRODUCT_PACKAGES += \
     CACertService \
