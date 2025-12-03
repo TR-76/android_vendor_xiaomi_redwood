@@ -11064,7 +11064,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libbase",
                 "libbinder",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -13831,7 +13831,7 @@ cc_prebuilt_library_shared {
                 "libhidltransport",
                 "libhidlbase",
                 "libgui_vendor",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -22247,35 +22247,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
-    stem: "vendor.xiaomi.hardware.displayfeature@1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
 prebuilt_rfsa {
     name: "bm2n06",
     filename: "bm2n06.bin",
@@ -24413,7 +24384,7 @@ cc_prebuilt_binary {
                 "libhardware",
                 "libhidlbase",
                 "libhidltransport",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
