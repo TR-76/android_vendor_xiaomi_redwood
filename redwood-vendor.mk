@@ -816,6 +816,7 @@ PRODUCT_PACKAGES += \
     libminksocket \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
+    libmisight \
     libmlipay \
     libmlipay@1.1 \
     libmm-color-convertor \
